@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boite{
+    @apply border shadow-md shadow-white w-fit m-auto mt-5 p-1 bg-white rounded-md
+}
+body{
+    @apply bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-400
+}
+.barreHaut{
+    @apply flex justify-between
+}
+#play{
+    @apply w-fit border pl-2 pr-2 rounded-md bg-yellow-400
+}
+.image{
+    @apply w-96 h-56 border m-1
+}
+.mot{
+    @apply w-full text-center
+}
+
+.mot span{
+    @apply text-sm
+}
+#clavier{
+    @apply flex flex-row flex-wrap max-w-96 gap-1 justify-center content-center w-full 
+}
+#clavier button{
+    @apply w-12 h-10 border border-yellow-200 bg-gray-200 rounded-md hover:bg-yellow-400 ease-in-out delay-75
+}
+#motRechercher{
+    @apply tracking-widest
+}
+#indice{
+    @apply text-sm
+}
+.piece1{
+    @apply relative border border-black top-56 w-24
+}
+.piece2{
+    @apply relative border border-black h-48 w-fit left-11 top-8
+}
+.piece3{
+    @apply relative border border-black w-24 bottom-40 left-11
+}
+.piece4{
+    @apply relative border border-black h-10 w-fit bottom-40 left-36
+}
+.tete{
+    @apply relative border-black border h-7 w-7 rounded-full bottom-44 left-36
+}
+.corps{
+    @apply border border-black h-16 w-fit bottom-48 relative left-36
+}
+.mainD{
+    @apply border border-black h-10 w-fit  relative bottom-60 left-32 rotate-45
+}
+.mainG {
+    @apply border border-black h-10 w-fit relative bottom-72 left-40 -rotate-45
+}
+
+
+.piedG {
+    @apply border border-black h-10 w-fit relative bottom-80 left-32 rotate-45
+}
+.piedD {
+    @apply border border-black h-10 w-fit relative bottom-72 left-40 -rotate-45
+}
